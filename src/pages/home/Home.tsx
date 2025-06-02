@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import farmaciaImg from "../../assets/farmacia.png";
 
 function Home() {
@@ -24,9 +25,11 @@ function Home() {
           <span className="text-2xl font-semibold text-gray-700 mr-auto">
             Conheça a nossa mais nova funcionalidade:
           </span>
-          <button className="px-10 py-2 rounded-full bg-gradient-to-r from-white to-white/0 text-indigo-900 font-semibold shadow hover:bg-indigo-100 transition">
-            Cadastrar categoria
-          </button>
+          <Link to="/categorias">
+            <button className="px-10 py-2 rounded-full bg-gradient-to-r from-white to-white/0 text-indigo-900 font-semibold shadow hover:bg-indigo-100 transition cursor-pointer">
+              Cadastrar categoria
+            </button>
+          </Link>
         </div>
       </div>
     </>

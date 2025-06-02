@@ -1,4 +1,4 @@
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/home/Home";
@@ -9,7 +9,10 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar />
-        <Home />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          {/* Aqui será incluso a rota para categorias assim que estiver pronta */}
+        </Routes>
         <Footer />
       </BrowserRouter>
     </>
