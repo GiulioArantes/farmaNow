@@ -43,7 +43,7 @@ Siga os passos abaixo para executar o projeto em seu ambiente local.
 git clone [https://github.com/GiulioArantes/farmaNow.git](https://github.com/GiulioArantes/farmaNow.git)
 
 # 2. Navegue até o diretório do projeto
-cd projeto_final_bloco_03
+cd farmaNow
 
 # 3. Instale as dependências
 yarn
