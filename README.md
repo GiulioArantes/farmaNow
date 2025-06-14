@@ -55,6 +55,8 @@ cp .env.example .env.local
 # 5. Inicie o servidor de desenvolvimento
 yarn dev
 ```
+> ⚠️ **Observação:** Para que a aplicação funcione corretamente, é necessário que o backend esteja rodando.
+> Você pode acessar o repositório do backend clicando [aqui](https://github.com/GiulioArantes/projeto_final_bloco_02).
 
 ## 🤝 Contribuição
 
