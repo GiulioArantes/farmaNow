@@ -8,7 +8,7 @@ FarmaNow é uma aplicação web intuitiva para gerenciamento e controle de produ
 
 O sistema oferece uma visão completa e detalhada da farmácia:
 
-* **website Interativo:** Navegação fluida e intuitiva pela aplicação:
+* **Website Interativo:** Navegação fluida e intuitiva pela aplicação:
     * **Produtos:** Gerencie os produtos da farmácia de forma prática e direta pela interface web.
     * **Categorias:** Organize os produtos em categorias personalizadas, como medicamentos, itens de higiene, medicamentos com prescrição, entre outros.
 * **Listagem de Categorias:** Visualize todas as categorias em uma tabela clara e organizada com informações essenciais.
@@ -32,7 +32,7 @@ Este projeto foi construído com uma stack moderna, performática e escalável:
     * [**Tailwind CSS**](https://tailwindcss.com/) - Framework de utilitários para estilização rápida e responsiva.
 * **Backend & Banco de Dados:**
     * [**Spring Boot**](https://spring.io/projects/spring-boot) - Framework Java para aplicações web robustas e seguras.
-    * [**PostgreSQL**](https://www.postgresql.org/) - Banco de dados relacional utilizado para persistência dos dados.
+    * [**MySQL**](https://www.mysql.com/) - Banco de dados relacional utilizado para persistência dos dados.
 
 ## ⚙️ Como Rodar o Projeto
 
@@ -56,7 +56,7 @@ cp .env.example .env.local
 yarn dev
 ```
 > ⚠️ **Observação:** Para que a aplicação funcione corretamente, é necessário que o backend esteja rodando.
-> Você pode acessar o repositório do backend clicando [aqui](https://github.com/GiulioArantes/projeto_final_bloco_02).
+> Você pode acessar o repositório do backend clicando [aqui](https://github.com/GiulioArantes/farmaNow-backend).
 
 ## 🤝 Contribuição
 
